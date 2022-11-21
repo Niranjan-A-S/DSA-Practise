@@ -1,0 +1,5 @@
+{
+    "watch": ["dsa.js", "./compiled"],
+    "ext": "js, css"
+  }
+  
