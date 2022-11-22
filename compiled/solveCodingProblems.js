@@ -60,15 +60,11 @@
 // };
 //Better approach
 const hasPairWithSum = (arr, sum) => {
-  let mySet = new Set();
-  for (let item of arr) {
-    if (mySet.has(item)) {
-      return true;
+    let mySet = new Set();
+    for (let item of arr) {
     }
-    mySet.add(sum - item);
-  }
-  return false;
 };
+console.log(hasPairWithSum([1, 23, 5, 3], 8));
 console.log(hasPairWithSum([1, 23, 5, 6], 8));
 console.log(hasPairWithSum([1, 23, 4, 4], 8));
 //# sourceMappingURL=solveCodingProblems.js.map
